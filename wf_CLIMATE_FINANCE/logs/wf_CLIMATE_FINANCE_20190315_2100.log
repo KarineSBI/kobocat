@@ -1,0 +1,96 @@
+{ Start Job wf_CLIMATE_FINANCE at Fri Mar 15 21:00:01 CET 2019
+User Current Path: /home/undpccca/etl/wf_CLIMATE_FINANCE
+Project name: CAMCLIMATE | Job name: Lib_ContextReader: context will be loaded from sub folder ./context/wf_CLIMATE_FINANCE.CAMCLIMATE_PROD.cfg
+.----------------------+-----------------------------------------------------------------.
+|                                   Context Parameters                                   |
+|=---------------------+----------------------------------------------------------------=|
+|key                   |value                                                            |
+|=---------------------+----------------------------------------------------------------=|
+|MySQL_Server          |localhost                                                        |
+|MySQL_Database        |zadmin_zbiundpccca                                               |
+|MySQL_Port            |3306                                                             |
+|MySQL_Login           |zbiundpccca                                                      |
+|MySQL_AdditionalParams|noDatetimeStringSync=true&useUnicode=true&characterEncoding=UTF-8|
+|P_DATE_format         |dd-MMM-yyyy                                                      |
+|P_Timestamp_format    |yyyy-MM-dd HH:mm:ss                                              |
+|P_Default_String      |#                                                                |
+|P_Default_Number      |0                                                                |
+|P_Default_Date_String |01-Jan-1000                                                      |
+|P_Default_Date_ID     |10000101                                                         |
+'----------------------+-----------------------------------------------------------------'
+
+===> Start Job m_cdc_s_odadata_frp at Fri Mar 15 21:00:02 CET 2019
+P_Data_Year|2020
+P_ETL_STATUS|0
+P_FILE_1_STATUS|0
+P_Data_Year|2020
+P_ETL_STATUS|0
+P_FILE_1_STATUS|0
+P_FILE_1_STATUS|0
+=== End Job m_cdc_s_odadata_frp at Fri Mar 15 21:00:10 CET 2019
+===> Start Job m_cdc_t_sector_frp at Fri Mar 15 21:00:10 CET 2019
+=== End Job m_cdc_t_sector_frp at Fri Mar 15 21:00:11 CET 2019
+===> Start Job m_cdc_t_sub_sectors_frp at Fri Mar 15 21:00:11 CET 2019
+=== End Job m_cdc_t_sub_sectors_frp at Fri Mar 15 21:00:11 CET 2019
+===> Start Job m_cdc_t_finance_sectors_ups at Fri Mar 15 21:00:11 CET 2019
+=== End Job m_cdc_t_finance_sectors_ups at Fri Mar 15 21:00:11 CET 2019
+===> Start Job m_cdc_t_thematic_makers_frp at Fri Mar 15 21:00:11 CET 2019
+=== End Job m_cdc_t_thematic_makers_frp at Fri Mar 15 21:00:11 CET 2019
+===> Start Job m_cdc_t_finance_thematic_makers_ups at Fri Mar 15 21:00:11 CET 2019
+=== End Job m_cdc_t_finance_thematic_makers_ups at Fri Mar 15 21:00:12 CET 2019
+===> Start Job m_cdc_t_working_groups_frp at Fri Mar 15 21:00:12 CET 2019
+=== End Job m_cdc_t_working_groups_frp at Fri Mar 15 21:00:12 CET 2019
+===> Start Job m_cdc_t_finance_working_groups_ups at Fri Mar 15 21:00:12 CET 2019
+=== End Job m_cdc_t_finance_working_groups_ups at Fri Mar 15 21:00:12 CET 2019
+===> Start Job m_cdc_t_finance_implement_agencies_ups at Fri Mar 15 21:00:13 CET 2019
+=== End Job m_cdc_t_finance_implement_agencies_ups at Fri Mar 15 21:03:13 CET 2019
+===> Start Job m_cdc_t_finance_sources_ups at Fri Mar 15 21:03:13 CET 2019
+=== End Job m_cdc_t_finance_sources_ups at Fri Mar 15 21:08:35 CET 2019
+===> Start Job m_cdc_t_finance_locations_ups at Fri Mar 15 21:08:35 CET 2019
+=== End Job m_cdc_t_finance_locations_ups at Fri Mar 15 21:08:35 CET 2019
+===> Start Job m_cdc_t_finances_UPS at Fri Mar 15 21:08:35 CET 2019
+=== End Job m_cdc_t_finances_UPS at Fri Mar 15 21:16:52 CET 2019
+P_ETL_1_STATUS|1
+End Job wf_CLIMATE_FINANCE at Fri Mar 15 21:16:52 CET 2019  }
+wf_CLIMATE_FINANCE is Done .
+Hi, I'm sleeping for 300 seconds...
+Starting with wf_CDC_REPORT..
+{ Start Job wf_CDC_REPORT at Fri Mar 15 21:21:53 CET 2019
+User Current Path: /home/undpccca/etl/wf_CDC_REPORT
+Project name: CAMCLIMATE | Job name: Lib_ContextReader: context will be loaded from sub folder ./context/wf_CDC_REPORT.CAMCLIMATE_PROD.cfg
+.----------------------+-----------------------------------------------------------------.
+|                                   Context Parameters                                   |
+|=---------------------+----------------------------------------------------------------=|
+|key                   |value                                                            |
+|=---------------------+----------------------------------------------------------------=|
+|MySQL_Server          |localhost                                                        |
+|MySQL_Database        |zadmin_zbiundpccca                                               |
+|MySQL_Port            |3306                                                             |
+|MySQL_Login           |zbiundpccca                                                      |
+|MySQL_AdditionalParams|noDatetimeStringSync=true&useUnicode=true&characterEncoding=UTF-8|
+|P_DATE_format         |dd-MMM-yyyy                                                      |
+|P_Timestamp_format    |yyyy-MM-dd HH:mm:ss                                              |
+|P_Default_String      |#                                                                |
+|P_Default_Number      |0                                                                |
+|P_Default_Date_String |01-Jan-1000                                                      |
+|P_Default_Date_ID     |10000101                                                         |
+'----------------------+-----------------------------------------------------------------'
+
+===> Start Job m_cdc_temp_odadata_frp at Fri Mar 15 21:21:53 CET 2019
+=== End Job m_cdc_temp_odadata_frp at Fri Mar 15 21:21:59 CET 2019
+===> Start Job m_cdc_t_finance_donor_l5y_frp at Fri Mar 15 21:21:59 CET 2019
+=== End Job m_cdc_t_finance_donor_l5y_frp at Fri Mar 15 21:23:59 CET 2019
+===> Start Job m_cdc_t_geo_cambodia_top3levels_frp at Fri Mar 15 21:23:59 CET 2019
+=== End Job m_cdc_t_geo_cambodia_top3levels_frp at Fri Mar 15 21:23:59 CET 2019
+===> Start Job m_cdc_t_finance_sector_l5y_frp at Fri Mar 15 21:23:59 CET 2019
+=== End Job m_cdc_t_finance_sector_l5y_frp at Fri Mar 15 21:24:35 CET 2019
+===> Start Job m_cdc_t_fr_finance_donor_l5y_frp at Fri Mar 15 21:24:35 CET 2019
+=== End Job m_cdc_t_fr_finance_donor_l5y_frp at Fri Mar 15 21:24:36 CET 2019
+===> Start Job m_cdc_t_fr_finance_sector_l5y_frp at Fri Mar 15 21:24:36 CET 2019
+=== End Job m_cdc_t_fr_finance_sector_l5y_frp at Fri Mar 15 21:24:37 CET 2019
+===> Start Job m_cdc_t_finance_ly_climate_change_by_thematic_level_frp at Fri Mar 15 21:24:37 CET 2019
+=== End Job m_cdc_t_finance_ly_climate_change_by_thematic_level_frp at Fri Mar 15 21:29:35 CET 2019
+===> Start Job m_cdc_t_fr_finance_ly_climate_change_by_thematic_level_frp at Fri Mar 15 21:29:35 CET 2019
+=== End Job m_cdc_t_fr_finance_ly_climate_change_by_thematic_level_frp at Fri Mar 15 21:29:36 CET 2019
+End Job wf_CDC_REPORT at Fri Mar 15 21:29:36 CET 2019  }
+All Done.
