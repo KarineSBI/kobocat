@@ -1,0 +1,4 @@
+#!/bin/sh
+cd `dirname $0`
+ROOT_PATH=`pwd`
+java -Xms256M -Xmx1024M -cp .:$ROOT_PATH:$ROOT_PATH/../lib/routines.jar:$ROOT_PATH/../lib/dom4j-1.6.1.jar:$ROOT_PATH/../lib/ini4j-0.5.1.jar:$ROOT_PATH/../lib/log4j-1.2.16.jar:$ROOT_PATH/../lib/mysql-connector-java-5.1.30-bin.jar:$ROOT_PATH/wf_cdc_report_0_1.jar:$ROOT_PATH/m_cdc_t_fr_finance_donor_l5y_frp_0_1.jar:$ROOT_PATH/m_cdc_t_fr_finance_ly_climate_change_by_thematic_level_frp_0_1.jar:$ROOT_PATH/m_cdc_t_finance_sector_l5y_frp_0_1.jar:$ROOT_PATH/lib_contextreader_0_1.jar:$ROOT_PATH/m_cdc_t_finance_ly_climate_change_by_thematic_level_frp_0_1.jar:$ROOT_PATH/m_cdc_t_finance_donor_l5y_frp_0_1.jar:$ROOT_PATH/m_cdc_temp_odadata_frp_0_1.jar:$ROOT_PATH/m_cdc_t_fr_finance_sector_l5y_frp_0_1.jar:$ROOT_PATH/m_cdc_t_geo_cambodia_top3levels_frp_0_1.jar: camclimate.wf_cdc_report_0_1.wf_CDC_REPORT  --context=Default "$@" 

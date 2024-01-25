@@ -1,0 +1,3 @@
+$fileDir = Split-Path -Parent $MyInvocation.MyCommand.Path
+cd $fileDir
+java '-Xms256M' '-Xmx1024M' -cp '.;../lib/routines.jar;../lib/dom4j-1.6.1.jar;../lib/ini4j-0.5.1.jar;../lib/log4j-1.2.16.jar;../lib/mysql-connector-java-5.1.30-bin.jar;wf_cdc_report_0_1.jar;m_cdc_t_fr_finance_donor_l5y_frp_0_1.jar;m_cdc_t_fr_finance_ly_climate_change_by_thematic_level_frp_0_1.jar;m_cdc_t_finance_sector_l5y_frp_0_1.jar;lib_contextreader_0_1.jar;m_cdc_t_finance_ly_climate_change_by_thematic_level_frp_0_1.jar;m_cdc_t_finance_donor_l5y_frp_0_1.jar;m_cdc_temp_odadata_frp_0_1.jar;m_cdc_t_fr_finance_sector_l5y_frp_0_1.jar;m_cdc_t_geo_cambodia_top3levels_frp_0_1.jar;' camclimate.wf_cdc_report_0_1.wf_CDC_REPORT  --context=Default %* 
